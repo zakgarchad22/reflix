@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Arial', sans-serif;
+  background-color: black; 
+  color: white; 
+  line-height: 1.6;
+}
+
+nav {
+  background: #e76956; 
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white; 
+  margin-right: 10px;
+}
+
+#user-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-box {
+  background-color: #c22003;
+  color: white; 
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.movie-container, .movie-detail-container {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.movie-container {
+  display: inline-block;
+  width: 30%; 
+  margin: 20px;
+}
+
+.movie-info {
+  margin-top: 15px;
+}
+
+.movie-info a {
+  font-weight: bold;
+  color: white; 
+  text-decoration: none;
+}
+
+.movie-container img, .movie-detail-container img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #285fa7; 
+  color: white;
+  padding: 5px 5px; 
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0e386f; 
+}
+
+.search-input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 100%; 
+  border: 1px solid #fff2f2; 
+  background-color: #ffffff; 
+  color: black;
+  border-radius: 5px;
+}
